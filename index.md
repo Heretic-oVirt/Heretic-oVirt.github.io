@@ -1,4 +1,4 @@
-## Welcome to Heretic oVirt Project
+## Welcome to the Heretic oVirt Project
 
 These pages act as a Github-based counterpart to the [official project site](https://dangerous.ovirt.life/) in order to minimally guide those starting in HVP from here.
 
