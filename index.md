@@ -13,11 +13,11 @@ The Heretic oVirt Project aims at creating a fully automated [SDDC](https://en.w
 ## Installation and usage
 
 A QuickStart document will be put together and published soon.
-In the meanwhile, please read the [Overview](https://github.com/Heretic-oVirt/docs/blob/master/Overview-eng.md) document and follow this basic list:
+In the meanwhile, please read the [Overview](https://github.com/Heretic-oVirt/docs/blob/master/Overview-eng.md) document then follow this basic list:
 
-1. Install the PC/VD support machine from the Internet (using [its Kickstart](https://github.com/Heretic-oVirt/kickstart/blob/master/heresiarch.ks))
-2. Install the servers (using [their own Kickstart](https://github.com/Heretic-oVirt/kickstart/blob/master/heretic-host.ks)) from the PC/VD support machine
-3. Launch the Ansible global playbook (which you can start familiarize with [here](https://github.com/Heretic-oVirt/ansible/blob/master/hvp/site.yaml)) from the PC/VD support machine
+1. Install the PC/VD support machine from the Internet (using [its Kickstart](https://github.com/Heretic-oVirt/kickstart/blob/master/heresiarch.ks)): you only need a CentOS7 x86_64 NetInstall CD or full DVD
+2. Install the servers (using [their own Kickstart](https://github.com/Heretic-oVirt/kickstart/blob/master/heretic-host.ks)) from the PC/VD support machine: you don't need anything else, just connect the servers correctly and make them boot from network
+3. Launch the Ansible global playbook (which you can familiarize with [here](https://github.com/Heretic-oVirt/ansible/blob/master/hvp/site.yaml)) from the PC/VD support machine: login on the graphical desktop, open a Terminal, become root and run the playbook
 
 ## Main repositories
 
